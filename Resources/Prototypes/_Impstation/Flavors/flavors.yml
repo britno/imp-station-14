@@ -470,6 +470,17 @@
   description: flavor-complex-irwizine
 
 - type: flavor
+  id: mutagendomestic
+  flavorType: Complex
+  description: flavor-complex-mutagendomestic
+
+- type: flavor
+  id: restoragen
+  flavorType: Complex
+  description: flavor-complex-restoragen
+
+
+- type: flavor
   id: rose
   flavorType: Complex
   description: flavor-complex-rose

@@ -1,5 +1,6 @@
 ﻿using System.Numerics;
 using Robust.Shared.GameStates;
+using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
 namespace Content.Shared.Nutrition.AnimalHusbandry;
@@ -35,4 +36,22 @@ public sealed partial class InfantComponent : Component
     [DataField("infantEndTime", customTypeSerializer: typeof(TimeOffsetSerializer))]
     [AutoPausedField]
     public TimeSpan InfantEndTime;
+
+    /// <summary>
+    /// imp addition. whether or not the current entity is an infant
+    /// </summary>
+    public bool IsInfant = true;
+
+}
+
+/// <summary>
+/// imp addition
+/// </summary>
+[Serializable, NetSerializable]
+public enum InfantVisuals : byte
+{
+    Infant,
+    InfantUnshaded,
+    InfantIncapacitated,
+    InfantIncapacitatedUnshaded
 }

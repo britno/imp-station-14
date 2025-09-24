@@ -360,3 +360,68 @@
         - "something-effect-change"
         - "something-effect-feeling"
         probability: 0.2
+
+- type: reagent
+  id: Something
+  name: reagent-name-something
+  desc: reagent-desc-something
+  physicalDesc: reagent-physical-desc-something
+  flavor: something
+  color: "#467557"
+  metabolisms: # imp
+    Food:
+      effects:
+      - !type:PopupMessage
+        type: Local
+        visualType: Medium
+        messages:
+        - "something-effect-feelsomething"
+        - "something-effect-justhappened"
+        - "something-effect-kindofway"
+        - "something-effect-somthing"
+        - "something-effect-process"
+        - "something-effect-change"
+        - "something-effect-feeling"
+        probability: 0.2
+
+- type: reagent
+  id: Mutagendomestic
+  name: reagent-name-mutagendomestic
+  desc: reagent-desc-mutagendomestic
+  physicalDesc: reagent-physical-desc-mutagendomestic
+  flavor: mutagendomestic
+  color: "#ff92b6"
+  recognizable: true
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:AddNewTags
+        addTags:
+        - DomesticOffspring
+        conditions:
+          - !type:ReagentThreshold
+            min: 5
+      - !type:RemoveOldTags
+        removeTags: 
+        - Base
+        conditions:
+          - !type:ReagentThreshold
+            min: 5
+
+#- type: reagent
+#  id: Restoragen
+#  name: reagent-name-restoragen
+#  desc: reagent-desc-restoragen
+#  physicalDesc: reagent-physical-desc-restoragen
+#  flavor: restoragen
+#  color: "#004f15"
+#  recognizable: true
+#  metabolisms:
+#    Medicine:
+#      effects:
+#      - !type:RemoveOldTag
+#        tags:
+#        - DomesticOffspring
+#        conditions:
+#        - !type:ReagentThreshold
+#          min: 5

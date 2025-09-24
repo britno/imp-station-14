@@ -174,6 +174,60 @@
       thresholds:
         0: Alive
         30: Dead
+    - type: Sprite # imp
+      drawdepth: Mobs
+      layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: alive
+        sprite: Mobs/Aliens/Carps/space.rsi
+      - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+        state: mouth
+        shader: unshaded
+      - map: [ "enum.InfantVisuals.Infant" ]
+        state: alive
+        sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+        visible: false
+      - map: [ "enum.InfantVisuals.InfantUnshaded" ]
+        state: mouth
+        shader: unshaded
+        sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+        visible: false
+      - map: [ "enum.InfantVisuals.InfantIncapacitated" ]
+        state: dead
+        sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+        visible: false
+      - map: [ "enum.InfantVisuals.InfantIncapacitatedUnshaded" ]
+        state: dead_mouth
+        shader: unshaded
+        sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+        visible: false
+    - type: RandomSprite # imp
+      available:
+      - enum.DamageStateVisualLayers.Base:
+          alive: Rainbow
+        enum.DamageStateVisualLayers.BaseUnshaded:
+          mouth: ""
+    - type: Tag
+      tags:
+        - Base
+        - Carp
+        - DoorBumpOpener
+    - type: Reproductive #imp
+      partnerWhitelist:
+        tags:
+        - Base
+        - Carp
+      offspring:
+      - id: MobCarpSalvage
+    - type: ReproductivePartner #imp
+    - type: DamageStateVisuals
+      states:
+        Alive:
+          Base: alive
+          BaseUnshaded: mouth
+        Dead:
+          Base: dead
+          BaseUnshaded: dead_mouth
 
 - type: entity
   name: space carp
@@ -211,6 +265,60 @@
     damage:
       types:
         Slash: 6
+  - type: Sprite # imp
+    drawdepth: Mobs
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: alive
+      sprite: Mobs/Aliens/Carps/space.rsi
+    - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+      state: mouth
+      shader: unshaded
+    - map: [ "enum.InfantVisuals.Infant" ]
+      state: alive
+      sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+      visible: false
+    - map: [ "enum.InfantVisuals.InfantUnshaded" ]
+      state: mouth
+      shader: unshaded
+      sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+      visible: false
+    - map: [ "enum.InfantVisuals.InfantIncapacitated" ]
+      state: dead
+      sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+      visible: false
+    - map: [ "enum.InfantVisuals.InfantIncapacitatedUnshaded" ]
+      state: dead_mouth
+      shader: unshaded
+      sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+      visible: false
+  - type: RandomSprite # imp
+    available:
+    - enum.DamageStateVisualLayers.Base:
+        alive: Rainbow
+      enum.DamageStateVisualLayers.BaseUnshaded:
+        mouth: ""
+  - type: Tag
+    tags:
+      - Base
+      - Carp
+      - DoorBumpOpener
+  - type: Reproductive #imp
+    partnerWhitelist:
+      tags:
+      - Base
+      - Carp
+    offspring:
+    - id: MobCarpSalvage
+  - type: ReproductivePartner #imp
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: alive
+        BaseUnshaded: mouth
+      Dead:
+        Base: dead
+        BaseUnshaded: dead_mouth
 
 - type: entity
   name: sharkminnow
@@ -272,3 +380,15 @@
   suffix: "Salvage Ruleset"
   components:
     - type: SalvageMobRestrictions
+
+- type: entity
+  id: TestDungeonCarp
+  parent: BaseMobCarp
+  suffix: Test
+  components:
+    - type: Tag
+      tags:
+        - Carp
+        - DoorBumpOpener
+        - Base
+
