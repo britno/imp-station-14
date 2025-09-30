@@ -185,21 +185,21 @@
         shader: unshaded
       - map: [ "enum.InfantVisuals.Infant" ]
         state: alive
-        sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+        sprite: _Impstation/Mobs/Aliens/Carps/Infants/space_infant.rsi
         visible: false
       - map: [ "enum.InfantVisuals.InfantUnshaded" ]
         state: mouth
         shader: unshaded
-        sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+        sprite: _Impstation/Mobs/Aliens/Carps/Infants/space_infant.rsi
         visible: false
       - map: [ "enum.InfantVisuals.InfantIncapacitated" ]
         state: dead
-        sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+        sprite: _Impstation/Mobs/Aliens/Carps/Infants/space_infant.rsi
         visible: false
       - map: [ "enum.InfantVisuals.InfantIncapacitatedUnshaded" ]
         state: dead_mouth
         shader: unshaded
-        sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+        sprite: _Impstation/Mobs/Aliens/Carps/Infants/space_infant.rsi
         visible: false
     - type: RandomSprite # imp
       available:
@@ -276,21 +276,21 @@
       shader: unshaded
     - map: [ "enum.InfantVisuals.Infant" ]
       state: alive
-      sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+      sprite: _Impstation/Mobs/Aliens/Carps/Infants/space_infant.rsi
       visible: false
     - map: [ "enum.InfantVisuals.InfantUnshaded" ]
       state: mouth
       shader: unshaded
-      sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+      sprite: _Impstation/Mobs/Aliens/Carps/Infants/space_infant.rsi
       visible: false
     - map: [ "enum.InfantVisuals.InfantIncapacitated" ]
       state: dead
-      sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+      sprite: _Impstation/Mobs/Aliens/Carps/Infants/space_infant.rsi
       visible: false
     - map: [ "enum.InfantVisuals.InfantIncapacitatedUnshaded" ]
       state: dead_mouth
       shader: unshaded
-      sprite: _Impstation/Mobs/Aliens/Carps/Infants/spaceinfant.rsi
+      sprite: _Impstation/Mobs/Aliens/Carps/Infants/space_infant.rsi
       visible: false
   - type: RandomSprite # imp
     available:
