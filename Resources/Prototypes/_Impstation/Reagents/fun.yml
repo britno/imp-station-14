@@ -419,7 +419,7 @@
 #  metabolisms:
 #    Medicine:
 #      effects:
-#      - !type:RemoveOldTag
+#      - !type:RemoveOldTagz
 #        tags:
 #        - DomesticOffspring
 #        conditions:

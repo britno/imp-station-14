@@ -916,6 +916,14 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: cow
       sprite: Mobs/Animals/cow.rsi
+    - map: [ "enum.InfantVisuals.Infant" ] #imp
+      state: cow
+      sprite: _Impstation/Mobs/Animals/Infants/cow_infant.rsi
+      visible: false
+    - map: [ "enum.InfantVisuals.InfantIncapacitated" ]
+      state: dead
+      sprite: _Impstation/Mobs/Animals/Infants/cow_infant.rsi
+      visible: false
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -1094,6 +1102,14 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: goat
       sprite: Mobs/Animals/goat.rsi
+    - map: [ "enum.InfantVisuals.Infant" ] #imp
+      state: goat
+      sprite: _Impstation/Mobs/Animals/Infants/goat_infant.rsi
+      visible: false
+    - map: [ "enum.InfantVisuals.InfantIncapacitated" ]
+      state: dead
+      sprite: _Impstation/Mobs/Animals/Infants/goat_infant.rsi
+      visible: false
   - type: Fixtures
     fixtures:
       fix1:
@@ -3991,6 +4007,14 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: pig
       sprite: Mobs/Animals/pig.rsi
+    - map: [ "enum.InfantVisuals.Infant" ] #imp
+      state: pig
+      sprite: _Impstation/Mobs/Animals/Infants/pig_infant.rsi
+      visible: false
+    - map: [ "enum.InfantVisuals.InfantIncapacitated" ]
+      state: dead
+      sprite: _Impstation/Mobs/Animals/Infants/pig_infant.rsi
+      visible: false
   - type: Fixtures
     fixtures:
       fix1:

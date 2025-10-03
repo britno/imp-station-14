@@ -16,6 +16,9 @@
   id: BananaClownshoes
 
 - type: Tag
+  id: Base
+
+- type: Tag
   id: BearHide
 
 - type: Tag
@@ -131,6 +134,9 @@
 
 - type: Tag
   id: DionaMinded
+
+- type: Tag
+  id: DomesticOffspring
 
 - type: Tag
   id: DroneUsable
