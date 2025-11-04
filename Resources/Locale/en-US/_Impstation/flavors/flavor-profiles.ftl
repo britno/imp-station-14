@@ -118,3 +118,4 @@ flavor-complex-mutagendomestic = like dog fur
 flavor-complex-restoragen = like slowly lowering yourself into a warm bath
 flavor-complex-rose = like a garden in the summer
 flavor-complex-allulalo = like hand sanitizer
+flavor-complex-pear = like pear
