@@ -1891,6 +1891,14 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: mouse-0
+    - map: [ "enum.InfantVisuals.Infant" ] #imp
+      state: mouse-0
+      sprite: _Impstation/Mobs/Animals/Infants/mouse_infant.rsi
+      visible: false
+    - map: [ "enum.InfantVisuals.InfantIncapacitated" ]
+      state: dead-0
+      sprite: _Impstation/Mobs/Animals/Infants/mouse_infant.rsi
+      visible: false
   - type: SpriteMovement
     movementLayers:
       movement:
@@ -2123,6 +2131,14 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: mouse-1
+    - map: [ "enum.InfantVisuals.Infant" ] #imp
+      state: mouse-1
+      sprite: _Impstation/Mobs/Animals/Infants/mouse_infant.rsi
+      visible: false
+    - map: [ "enum.InfantVisuals.InfantIncapacitated" ]
+      state: dead-1
+      sprite: _Impstation/Mobs/Animals/Infants/mouse_infant.rsi
+      visible: false
   - type: SpriteMovement
     movementLayers:
       movement:
@@ -2164,6 +2180,14 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: mouse-2
+    - map: [ "enum.InfantVisuals.Infant" ] #imp
+      state: mouse-2
+      sprite: _Impstation/Mobs/Animals/Infants/mouse_infant.rsi
+      visible: false
+    - map: [ "enum.InfantVisuals.InfantIncapacitated" ]
+      state: dead-2
+      sprite: _Impstation/Mobs/Animals/Infants/mouse_infant.rsi
+      visible: false
   - type: SpriteMovement
     movementLayers:
       movement:

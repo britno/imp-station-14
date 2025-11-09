@@ -20,6 +20,7 @@ reagent-physical-desc-reallynervous = really nervous
 reagent-physical-desc-space-grease = dangerously shiny
 reagent-physical-desc-mutagendomestic = soothing
 reagent-physical-desc-restoragen = refreshing
+reagent-physical-desc-reprogen = enticing
 reagent-physical-desc-floral = floral
 reagent-physical-desc-thin = thin
 reagent-physical-desc-ghostly = ghostly

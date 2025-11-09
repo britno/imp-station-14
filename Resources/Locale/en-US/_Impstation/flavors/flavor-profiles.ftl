@@ -116,5 +116,6 @@ flavor-complex-wizard = like wizard access
 flavor-complex-irwizine = like wrestling an alligator
 flavor-complex-mutagendomestic = like dog fur
 flavor-complex-restoragen = like slowly lowering yourself into a warm bath
+flavor-complex-reprogen = like cheap chocolate
 flavor-complex-rose = like a garden in the summer
 flavor-complex-allulalo = like hand sanitizer

@@ -75,3 +75,33 @@
       amount: 1
   products:
     Something: 2 #what did you expect
+
+- type: reaction
+  id: MutagenDomestic
+  reactants:
+    UnstableMutagen:
+      amount: 1
+    Hyronalin:
+      amount: 1
+  products:
+    MutagenDomestic: 2
+
+- type: reaction
+  id: Restoragen
+  reactants:
+    UnstableMutagen:
+      amount: 1
+    Phalanximine:
+      amount: 1
+  products:
+    Restoragen: 2
+
+- type: reaction
+  id: Reprogen
+  reactants:
+    UnstableMutagen:
+      amount: 1
+    Mannitol:
+      amount: 1
+  products:
+    Reprogen: 2

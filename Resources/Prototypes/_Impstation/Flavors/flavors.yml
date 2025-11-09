@@ -479,6 +479,10 @@
   flavorType: Complex
   description: flavor-complex-restoragen
 
+- type: flavor
+  id: reprogen
+  flavorType: Complex
+  description: flavor-complex-reprogen
 
 - type: flavor
   id: rose

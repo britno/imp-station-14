@@ -46,5 +46,8 @@ reagent-desc-mutagendomestic = A mutagenic chemical that altars the reproductive
 reagent-name-restoragen = Restoragen
 reagent-desc-restoragen = Undoes any mutagenic alterations done to the creature ingesting it.
 
+reagent-name-reprogen = Reprogen
+reagent-desc-reprogen = Allows certain creatures that ingest it to reproduce. Not for sophont consumption!
+
 reagent-name-something = something
 reagent-desc-something = It's something.
